@@ -1,0 +1,15 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+
+<button (click)="toCanvas()">Download (Not recommended)</button>
+
+<button (click)="downloadDivs()">Download divs using rxjs(Recommended)</button>
+
+<button (click)="trivialDownload()">Download (trivial, can use)</button>
+
+<div [id]="id" *ngFor="let id of array">
+  I am div id: {{id}}
+</div>
